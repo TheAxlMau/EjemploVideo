@@ -42,7 +42,8 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(342, 73);
             this.label1.TabIndex = 0;
-            this.label1.Text = "MAIN V1.2";
+            this.label1.Text = "MAIN V1.3";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 
@@ -66,10 +67,11 @@
             // checkedListBox1
             // 
             this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(624, 146);
+            this.checkedListBox1.Location = new System.Drawing.Point(576, 176);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(120, 94);
             this.checkedListBox1.TabIndex = 3;
+            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
             // Form1
             // 

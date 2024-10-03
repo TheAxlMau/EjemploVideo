@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace EjemploVideo
 {
-    public partial class Form1 : Form
+    public partial class Rama1 : Form
     {
-        public Form1()
+        public Rama1()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
