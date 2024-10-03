@@ -60,6 +60,12 @@
     <Compile Include="Rama1.Designer.cs">
       <DependentUpon>Rama1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Rama2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rama2.Designer.cs">
+      <DependentUpon>Rama2.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -74,6 +80,9 @@
     </Compile>
     <EmbeddedResource Include="Rama1.resx">
       <DependentUpon>Rama1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rama2.resx">
+      <DependentUpon>Rama2.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
